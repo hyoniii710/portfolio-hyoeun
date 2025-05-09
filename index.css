@@ -1,0 +1,90 @@
+header {
+  width: 100%;
+  /* background-color: #f6f5f0; */
+  border-bottom: 1px solid hsl(0, 0%, 78%);
+  /* position: relative; */
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+.inner {
+  position: relative;
+}
+header > .inner {
+  height: 80px;
+}
+
+header .main-name {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  left: 30px;
+  margin: auto;
+}
+header .main-name h1 {
+  color: #f6c341;
+  font-size: 30px;
+  -webkit-text-stroke: 2px red;
+}
+
+header .menu {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  display: flex;
+}
+
+header .menu ul.main-menu {
+  /* sub-menu 수평 정렬 (flex) */
+  display: flex;
+  /* 전체 글꼴 설정했지만 해당 태그만 따로 글꼴 설정 */
+  font-family: Arial;
+}
+header .menu ul.main-menu li {
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+  color: tomato;
+  font-size: 18px;
+  text-stroke-width: 3px;
+  text-stroke-color: white;
+}
+.intro {
+}
+.intro-name {
+  display: flex;
+  margin-top: 10%;
+  position: absolute;
+  left: 30%;
+}
+.intro .myname {
+  opacity: 0;
+}
+.intro-name .myimg {
+  width: 240px;
+  height: 300px;
+  border-radius: 70%;
+  box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.intro-name .myname1 {
+  font-size: 28px;
+  letter-spacing: 3px;
+  line-height: 40px;
+  color: rgb(61, 61, 65);
+  height: 40px;
+  left: 500px;
+  padding-left: 280px;
+}
+.intro-name .myname2 {
+  padding-top: 80px;
+  padding-left: 60px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  line-height: 23px;
+  color: darkolivegreen;
+  padding-left: 320px;
+}
